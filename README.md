@@ -78,3 +78,44 @@ Migração para AZURE
     *Compátivel com Windows, MacOS e Linux
   Sincronização de Arquivos: Sincroniza arquivo locais de forma bidirecional
     *A camada de nuvem mantém os arquivos acessos com frequência no local, enquanto libera espaço.
+
+   Microsoft Entra ID
+    Serviço de gerenciamento de identidades e acesso baseado em nuvem do Microsoft Azure!
+    *Autenticação (os funcionários entram para acessar os recursos).
+    *Logon único (SSO)
+    *Gerenciamento de aplicativos.
+    *Negócios para Negócios (B2B).
+    *Gerenciamento de dispositivos.
+Autenticação
+ * Identifica a pessoa ou serviço buscando acesso a um recurso.
+ * Solicita credenciais de acesso legítimo
+ * Base para criar principios de identidade e controle de acesso seguros
+
+   
+Autorização
+ *Determina o nível de acesso de uma pessoa ou serviço autenticado
+ *Define quais dados eles podem acessar e o que podem fazer com eles.
+ 
+Autenticação Multifator
+ *Fornece segurança adicional para s identidades exigindo dois ou mais elementos para autenticação completa.
+ 
+Acesso Condicional
+   * É utilizado para reunir sinais , tomar decisões e impor políticas organizacionais.
+ #Associação de usuário ao grupo, local do IP, dispositivo, aplicativo e detecção risco.
+
+Controle de acesso baseado em função
+ *Confiança Zero: é uma abordagem de segurança que parte do pressuposto de que nenhuma entidade, seja interna ou externa à rede, deve ser automaticamente confiável. Em vez disso, todas as tentativas de acesso devem ser verificadas e autenticadas continuamente.
+
+Proteção Completa
+ *Uma abordagem em camada para proteger sistemas de computador.
+ *Fornece vários níveis de proteção.
+ *Ataques contra uma camada são isolados das camadas subsequentes.
+
+Microsoft Defender para nuvem
+ * é um serviço de monitoramento que fornece proteção contra ameaças nos datacenters do Azure e locais.
+ * Fornece recomendações de segurança.
+ * Detectar e bloquear malware
+ * Analisar e identificar ataques potenciais.
+ * Controle de acessos just-in-time para portas.
+
+   #NOTA: Contas de usuários excluídas podem ser restauradas até 30 dias da data da exclusão.

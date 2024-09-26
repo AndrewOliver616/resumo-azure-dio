@@ -119,3 +119,28 @@ Microsoft Defender para nuvem
  * Controle de acessos just-in-time para portas.
 
    #NOTA: Contas de usuários excluídas podem ser restauradas até 30 dias da data da exclusão.
+
+
+Otimizando Custo no Azure
+
+ Calculadora de Custo Total de Propriedade - TCO
+ Calculadora do Azure
+
+*Auxílio nas estimativas de economia em obter os serviços de nuvem do Azure.
+
+Definir as cargas de trabalho
+
+Servidores
+
+Bancos de Dados
+
+Armazenamento
+
+Rede
+
+Cobertura do software Assurance (Benefício Híbrido) - Benefício híbrido tende a diminuir o custo de aquisição dos serviços. Reserva e horas ativas também influenciam o no custo total.
+
+Cost Management + Billing e Marcas (Tags)
+Análises de recursos por marcas para identificar os focos de gastos da assinatura e buscar alternativas através de estratégias. Além disso é possível criar um linha de corte para os custos de determinado recursos, seja com alertas, seja com redução/suspensão do uso por determinados períodos.
+
+Tags: Research Group - Não são pré-requisitos, dupla chave e valor com apontamento de centro de custo, a Tag não é herdável

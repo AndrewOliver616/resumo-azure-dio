@@ -144,3 +144,76 @@ Cost Management + Billing e Marcas (Tags)
 Análises de recursos por marcas para identificar os focos de gastos da assinatura e buscar alternativas através de estratégias. Além disso é possível criar um linha de corte para os custos de determinado recursos, seja com alertas, seja com redução/suspensão do uso por determinados períodos.
 
 Tags: Research Group - Não são pré-requisitos, dupla chave e valor com apontamento de centro de custo, a Tag não é herdável
+
+Governança e Conformidade
+
+ #Blueprints, políticas e bloqueios de recursos
+ #Portal de Confiança do Serviço
+
+AZURE Policy (Política do Azure)
+
+ Ajuda a #ImporPadrões organizacionais e a avaliar a conformidade em escala.
+ Fornece governança e consistência de recursos com conformidade regulatória, segurança, custo e gerenciamento.
+
+
+ Avalia e identifica os recursos do AZURE que não atendem às suas políticas.
+ Fornece definições de política e iniciativas integradas em categorias como armazenamento, central de segurança e monitoramento.
+
+  #Bloqueio de Recursos#
+   *BLOQUEIOS SÃO HERDÁVEIS!!! Quando são movidos, perdem as políticas impostas.
+   *Bloqueios de somente leitura podem impactar no trabalho das equipes
+
+   
+ Portal de Confiança do Serviço
+
+   O Portal de Confiança do Serviço da Microsoft fornece informações detalhadas sobre a conformidade, segurança e privacidade dos serviços da Microsoft. Ele ajuda as organizações a entenderem como a Microsoft gerencia a segurança e a conformidade dos dados na nuvem.
+Bloqueio de Recursos é uma funcionalidade poderosa no Azure que pode ter tanto impactos positivos quanto negativos. Vamos explorar ambos:
+
+#Impactos Positivos
+
+ Proteção Contra Exclusões Acidentais:
+ 
+  Segurança dos Dados: Bloquear recursos críticos impede que sejam excluídos acidentalmente, garantindo a integridade dos dados.
+  Continuidade do Serviço: Evita interrupções no serviço que poderiam ocorrer devido à exclusão não intencional de recursos essenciais.
+ 
+ Controle de Alterações:
+ 
+  Estabilidade: Bloquear alterações em recursos críticos mantém a estabilidade do ambiente, especialmente em produção.
+  Conformidade: Ajuda a garantir que os recursos permaneçam em conformidade com as políticas organizacionais e regulatórias.
+ 
+ Gerenciamento de Custos:
+ 
+  Prevenção de Custos Inesperados: Impede a exclusão de recursos que poderiam resultar em custos adicionais para recriação ou recuperação.
+  
+ #Impactos Negativos
+ 
+  
+ Flexibilidade Reduzida:
+ 
+  Dificuldade em Atualizações: Bloquear recursos pode dificultar a aplicação de atualizações ou modificações necessárias, exigindo etapas adicionais para desbloquear e depois  
+  bloquear novamente.
+ 
+  Burocracia: Pode introduzir processos burocráticos adicionais para gerenciar desbloqueios temporários.
+  
+ Complexidade na Gestão:
+
+  Gerenciamento de Permissões: Pode ser complicado gerenciar quem tem permissão para bloquear ou desbloquear recursos, especialmente em grandes equipes.
+ 
+  Risco de Bloqueios Inadequados: Se não for bem gerenciado, pode haver bloqueios em recursos que não deveriam ser bloqueados, impactando negativamente a operação.
+ 
+ Impacto na Agilidade:
+ 
+  Respostas Lentas a Incidentes: Em situações de emergência, a necessidade de desbloquear recursos pode atrasar a resposta e a resolução de problemas.
+  Inovação Limitada: Pode limitar a capacidade de experimentar e inovar rapidamente, já que as mudanças nos recursos bloqueados exigem mais planejamento e coordenação.
+
+ Conclusão
+  O Bloqueio de Recursos é uma ferramenta valiosa para proteger e gerenciar recursos no Azure, mas deve ser usado com cuidado. É importante balancear a necessidade de segurança 
+  estabilidade com a flexibilidade e agilidade necessárias para operar eficientemente na nuvem.
+  
+ Microsoft Purview
+    Microsoft Purview é uma solução abrangente de governança e conformidade de dados. Ele ajuda as organizações a gerenciar riscos, proteger dados confidenciais e responder a 
+   requisitos regulatórios. O Gerenciador de Conformidade do Microsoft Purview oferece ferramentas para:
+
+  *Avaliar e gerenciar riscos de conformidade.
+  *Proteger dados confidenciais.
+  *Responder a requisitos regulatórios de maneira eficiente.

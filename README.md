@@ -220,6 +220,11 @@ Bloqueio de Recursos é uma funcionalidade poderosa no Azure que pode ter tanto 
 
 LAB Azure Resource Manager (ARM) 
 
+ *PRECISA DE UMA STORAGE ACCOUNT 
+
+ - FUNCIONA EM POWERSHELL (CLOUDSHELL), BASH E AFINS
+ - POSSÍVEL FAZER DOWNLOAD E UPLOAD
+   
  É a camada de gerenciamento do Azure que permite criar, atualizar e excluir recursos em sua conta do Azure. Ele fornece várias  
  ferramentas para facilitar a implantação e o gerenciamento de recursos. Aqui estão algumas das principais ferramentas de  
  implantação de recursos ARM:
@@ -229,22 +234,49 @@ Ferramentas de Implantação de Recursos ARM
  
  Descrição: São arquivos JSON que definem a infraestrutura e a configuração dos seus recursos do Azure de maneira declarativa.
  Uso: Permitem implantar, atualizar e excluir recursos de forma consistente e repetível.
- Ferramentas: Podem ser criados e gerenciados usando o Visual Studio Code, CLI do Azure, Azure PowerShell e GitHub Actions1.
+ Ferramentas: Podem ser criados e gerenciados usando o Visual Studio Code, CLI do Azure, Azure PowerShell e GitHub Actions.
  
 Azure Portal:
  Descrição: Interface gráfica baseada na web para gerenciar e implantar recursos do Azure.
  Uso: Permite criar e editar modelos ARM diretamente no portal, facilitando a implantação rápida sem a necessidade de 
- ferramentas adicionais2.
+ ferramentas adicionais.
  
 Azure CLI (Command-Line Interface):
  Descrição: Ferramenta de linha de comando que permite gerenciar recursos do Azure.
- Uso: Ideal para automatizar tarefas de implantação e gerenciamento de recursos usando scripts3.
+ Uso: Ideal para automatizar tarefas de implantação e gerenciamento de recursos usando scripts.
  
 Azure PowerShell:
  Descrição: Conjunto de módulos que fornecem cmdlets para gerenciar o Azure.
- Uso: Útil para administradores que preferem usar o PowerShell para automatizar a implantação e o gerenciamento de recursos3.
+ Uso: Útil para administradores que preferem usar o PowerShell para automatizar a implantação e o gerenciamento de recursos.
  
 Bicep:
  Descrição: Linguagem de domínio específico (DSL) para implantar recursos do Azure, que simplifica a sintaxe dos modelos ARM.
  Uso: Facilita a criação e o gerenciamento de modelos de infraestrutura como código (IaC) com uma sintaxe mais simples e 
- legível1.
+ legível.
+
+ O Azure Arc é uma solução que permite gerenciar recursos em ambientes híbridos e multinuvem, proporcionando uma plataforma de gerenciamento consistente tanto para recursos no Azure quanto fora dele. Aqui estão os tipos de recursos que o Azure Arc permite gerenciar em outras nuvens:
+
+Recursos Gerenciáveis com Azure Arc
+
+Servidores:
+
+Windows e Linux: Gerencie servidores físicos e máquinas virtuais hospedadas fora do Azure, incluindo outras nuvens públicas e data centers locais.
+
+Clusters Kubernetes:
+
+Multinuvem: Anexe e configure clusters Kubernetes em execução em qualquer lugar, com suporte para várias distribuições.
+
+Serviços de Dados do Azure:
+
+SQL Managed Instance e PostgreSQL: Execute serviços de dados do Azure em ambientes locais, na borda e em outras nuvens públicas usando Kubernetes.
+
+Máquinas Virtuais:
+
+VMware vSphere e Azure Stack HCI: Provisione, redimensione, exclua e gerencie máquinas virtuais baseadas em VMware vSphere ou Azure Stack HCI, permitindo autoatendimento de VMs através de controle baseado em funções.
+Benefícios do Azure Arc
+
+Governança e Segurança Consistentes: Aplique políticas de segurança e conformidade do Azure em todos os seus recursos, independentemente de onde estejam hospedados.
+
+Gerenciamento Centralizado: Use o portal do Azure para gerenciar todos os seus recursos, proporcionando uma visão unificada e simplificada.
+
+Flexibilidade e Escalabilidade: Implemente e gerencie recursos em qualquer ambiente, aproveitando a infraestrutura existente e otimizando custos.

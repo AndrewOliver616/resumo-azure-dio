@@ -217,3 +217,34 @@ Bloqueio de Recursos é uma funcionalidade poderosa no Azure que pode ter tanto 
   *Avaliar e gerenciar riscos de conformidade.
   *Proteger dados confidenciais.
   *Responder a requisitos regulatórios de maneira eficiente.
+
+LAB Azure Resource Manager (ARM) 
+
+ É a camada de gerenciamento do Azure que permite criar, atualizar e excluir recursos em sua conta do Azure. Ele fornece várias  
+ ferramentas para facilitar a implantação e o gerenciamento de recursos. Aqui estão algumas das principais ferramentas de  
+ implantação de recursos ARM:
+
+Ferramentas de Implantação de Recursos ARM
+ Modelos ARM (Azure Resource Manager Templates):
+ 
+ Descrição: São arquivos JSON que definem a infraestrutura e a configuração dos seus recursos do Azure de maneira declarativa.
+ Uso: Permitem implantar, atualizar e excluir recursos de forma consistente e repetível.
+ Ferramentas: Podem ser criados e gerenciados usando o Visual Studio Code, CLI do Azure, Azure PowerShell e GitHub Actions1.
+ 
+Azure Portal:
+ Descrição: Interface gráfica baseada na web para gerenciar e implantar recursos do Azure.
+ Uso: Permite criar e editar modelos ARM diretamente no portal, facilitando a implantação rápida sem a necessidade de 
+ ferramentas adicionais2.
+ 
+Azure CLI (Command-Line Interface):
+ Descrição: Ferramenta de linha de comando que permite gerenciar recursos do Azure.
+ Uso: Ideal para automatizar tarefas de implantação e gerenciamento de recursos usando scripts3.
+ 
+Azure PowerShell:
+ Descrição: Conjunto de módulos que fornecem cmdlets para gerenciar o Azure.
+ Uso: Útil para administradores que preferem usar o PowerShell para automatizar a implantação e o gerenciamento de recursos3.
+ 
+Bicep:
+ Descrição: Linguagem de domínio específico (DSL) para implantar recursos do Azure, que simplifica a sintaxe dos modelos ARM.
+ Uso: Facilita a criação e o gerenciamento de modelos de infraestrutura como código (IaC) com uma sintaxe mais simples e 
+ legível1.

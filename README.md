@@ -308,3 +308,17 @@ Flexibilidade e Escalabilidade: Implemente e gerencie recursos em qualquer ambie
    - **Benefícios**: Ajuda a detectar e diagnosticar problemas rapidamente, melhorando a integridade e o desempenho dos aplicativos.
 
 Essas ferramentas são essenciais para garantir que seus serviços no Azure permaneçam confiáveis e de alta performance
+
+Monitoramento Inteligente com o Azure
+
+O Azure oferece uma variedade de ferramentas de monitoramento que ajudam a garantir a disponibilidade e o desempenho de seus aplicativos e serviços. Aqui estão algumas das principais ferramentas:
+
+1. **Azure Monitor**: Uma solução abrangente para coletar, analisar e responder a dados de monitoramento de ambientes em nuvem e locais. Ele fornece visibilidade de ponta a ponta em aplicativos, infraestrutura e rede.
+
+2. **Activity Logs**: Registra todas as atividades que ocorrem dentro do Azure, permitindo que você rastreie alterações e eventos importantes.
+
+3. **Azure Diagnostics**: Coleta dados de diagnóstico de aplicativos em execução no Azure, ajudando a identificar e resolver problemas rapidamente.
+
+4. **Azure Alerts**: Configura alertas para notificá-lo sobre problemas potenciais antes que eles afetem seus usuários. Você pode definir alertas com base em métricas específicas ou logs de atividades.
+
+5. **Dashboards Personalizáveis**: Permitem visualizar diferentes assinaturas do Azure em um único painel, facilitando o monitoramento e a gestão de recursos.

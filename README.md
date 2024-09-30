@@ -280,3 +280,31 @@ Governança e Segurança Consistentes: Aplique políticas de segurança e confor
 Gerenciamento Centralizado: Use o portal do Azure para gerenciar todos os seus recursos, proporcionando uma visão unificada e simplificada.
 
 Flexibilidade e Escalabilidade: Implemente e gerencie recursos em qualquer ambiente, aproveitando a infraestrutura existente e otimizando custos.
+
+
+1. **Azure Service Health**:
+   - **O que é**: Fornece uma visão personalizada da integridade dos serviços do Azure que você utiliza.
+   - **Funcionalidades**: Alerta sobre interrupções de serviço, manutenção planejada e outras notificações importantes. Você pode configurar alertas para receber notificações por email, SMS ou webhook.
+   - **Benefícios**: Ajuda a se preparar para interrupções e a tomar medidas proativas para mitigar impactos.
+
+2. **Azure Resource Health**:
+   - **O que é**: Monitora a integridade de recursos individuais, como máquinas virtuais, bancos de dados e outros serviços.
+   - **Funcionalidades**: Fornece detalhes sobre a causa raiz de problemas e recomendações para resolução. Indica se um recurso está saudável, degradado ou indisponível.
+   - **Benefícios**: Permite uma resposta rápida a problemas específicos de recursos, minimizando o tempo de inatividade.
+
+3. **Azure Advisor**:
+   - **O que é**: Uma ferramenta que oferece recomendações personalizadas para otimizar seus recursos do Azure.
+   - **Funcionalidades**: Analisa seus recursos e fornece sugestões para melhorar a integridade, segurança, desempenho e custo. As recomendações são categorizadas em alta disponibilidade, segurança, desempenho e custo.
+   - **Benefícios**: Ajuda a manter seus recursos otimizados e a evitar problemas futuros, além de potencialmente reduzir custos.
+
+4. **Log Analytics**:
+   - **O que é**: Parte do Azure Monitor, permite coletar e analisar dados de logs de seus recursos do Azure.
+   - **Funcionalidades**: Oferece uma linguagem de consulta poderosa para analisar logs, criar alertas e visualizar dados em dashboards personalizados.
+   - **Benefícios**: Facilita a identificação de tendências e anomalias, ajudando a diagnosticar problemas e a melhorar a integridade do serviço.
+
+5. **Application Insights**:
+   - **O que é**: Uma ferramenta de monitoramento de desempenho de aplicativos, parte do Azure Monitor.
+   - **Funcionalidades**: Coleta dados de telemetria de seus aplicativos, como tempos de resposta, taxas de erro e contagens de solicitações. Oferece insights detalhados sobre o desempenho e a experiência do usuário.
+   - **Benefícios**: Ajuda a detectar e diagnosticar problemas rapidamente, melhorando a integridade e o desempenho dos aplicativos.
+
+Essas ferramentas são essenciais para garantir que seus serviços no Azure permaneçam confiáveis e de alta performance
